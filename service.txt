@@ -1,5 +1,0 @@
-Selecting 39cdcf684dce2880 (samsung SM-N9006 4.4.2)
-
-Package: com.twitter.android
-  No exported services.
-
