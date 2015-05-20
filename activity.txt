@@ -1,0 +1,31 @@
+Selecting 39cdcf684dce2880 (samsung SM-N9006 4.4.2)
+
+Package: com.twitter.android
+  com.twitter.android.WidgetSettingsActivity
+    Permission: null
+  com.twitter.android.SearchActivity
+    Permission: null
+  com.twitter.android.composer.ComposerActivity
+    Parent Activity: com.twitter.android.MainActivity
+    Permission: null
+  com.twitter.android.AuthenticatorActivity
+    Permission: null
+  com.twitter.android.TweetActivity
+    Parent Activity: com.twitter.android.MainActivity
+    Permission: null
+  com.twitter.android.ProfileActivity
+    Parent Activity: com.twitter.android.MainActivity
+    Permission: null
+  com.twitter.android.CategoriesActivity
+    Permission: null
+  com.twitter.android.UrlInterpreterActivity
+    Permission: null
+  com.twitter.android.StartActivity
+    Permission: null
+  com.twitter.android.AuthorizeAppActivity
+    Permission: com.twitter.android.permission.AUTH_APP
+  com.twitter.android.SingleSignOnActivity
+    Permission: null
+  com.twitter.android.samsung.single.SamsungCheckActivity
+    Permission: null
+

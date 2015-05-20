@@ -1,0 +1,24 @@
+Selecting 39cdcf684dce2880 (samsung SM-N9006 4.4.2)
+
+Package: com.sina.weibo
+  com.sina.weibo.gowidget.GoWidgetProvider$GoWidgetKeepLiveService
+    Permission: null
+  com.sina.weibo.sendqueue.SendQueueService
+    Permission: null
+  com.sina.weibo.business.WeiboService
+    Permission: null
+  com.sina.weibo.business.DownloadManager
+    Permission: null
+  com.sina.weibo.business.ImageUtilService
+    Permission: null
+  com.sina.weibo.business.RemoteSSOService
+    Permission: null
+  com.sina.weibo.appmarket.service.AppMarketService
+    Permission: null
+  com.sina.push.service.SinaPushService
+    Permission: com.sina.permission.SINA_PUSH
+  com.sina.weibo.sdk.internal.SdkIdentityService
+    Permission: null
+  com.sina.weibo.hc.tracking.manager.TrackingService
+    Permission: null
+

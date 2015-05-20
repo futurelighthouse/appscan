@@ -1,0 +1,52 @@
+Selecting 39cdcf684dce2880 (samsung SM-N9006 4.4.2)
+
+Package: com.twitter.android
+  Application Label: Twitter
+  Process Name: com.twitter.android
+  Version: 5.58.0-alpha.275
+  Data Directory: /data/data/com.twitter.android
+  APK Path: /data/app/com.twitter.android-13.apk
+  UID: 10221
+  GID: [3003, 1028, 1015]
+  Shared Libraries: null
+  Shared User ID: null
+  Uses Permissions:
+  - com.twitter.android.permission.C2D_MESSAGE
+  - com.twitter.android.permission.RESTRICTED
+  - com.twitter.android.permission.AUTH_APP
+  - android.permission.INTERNET
+  - android.permission.ACCESS_NETWORK_STATE
+  - android.permission.VIBRATE
+  - android.permission.READ_PROFILE
+  - android.permission.READ_CONTACTS
+  - android.permission.RECEIVE_SMS
+  - android.permission.GET_ACCOUNTS
+  - android.permission.MANAGE_ACCOUNTS
+  - android.permission.AUTHENTICATE_ACCOUNTS
+  - android.permission.READ_SYNC_SETTINGS
+  - android.permission.WRITE_SYNC_SETTINGS
+  - android.permission.ACCESS_FINE_LOCATION
+  - android.permission.USE_CREDENTIALS
+  - android.permission.SYSTEM_ALERT_WINDOW
+  - android.permission.WAKE_LOCK
+  - android.permission.WRITE_EXTERNAL_STORAGE
+  - com.twitter.android.permission.READ_DATA
+  - com.google.android.c2dm.permission.RECEIVE
+  - com.google.android.providers.gsf.permission.READ_GSERVICES
+  - com.twitter.android.permission.MAPS_RECEIVE
+  - com.android.launcher.permission.INSTALL_SHORTCUT
+  - android.permission.READ_PHONE_STATE
+  - com.sonyericsson.home.permission.BROADCAST_BADGE
+  - com.sec.android.provider.badge.permission.READ
+  - com.sec.android.provider.badge.permission.WRITE
+  - android.permission.CAMERA
+  - android.permission.RECORD_AUDIO
+  - android.permission.ACCESS_WIFI_STATE
+  - android.permission.READ_EXTERNAL_STORAGE
+  Defines Permissions:
+  - com.twitter.android.permission.READ_DATA
+  - com.twitter.android.permission.MAPS_RECEIVE
+  - com.twitter.android.permission.C2D_MESSAGE
+  - com.twitter.android.permission.RESTRICTED
+  - com.twitter.android.permission.AUTH_APP
+

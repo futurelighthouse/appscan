@@ -1,0 +1,28 @@
+Selecting 39cdcf684dce2880 (samsung SM-N9006 4.4.2)
+
+Package: com.sina.weibo
+  com.sina.weibo.gowidget.GoWidgetProvider
+    Permission: null
+  com.sina.weibo.BootCompletedReceiver
+    Permission: null
+  com.sina.weibo.browser.InterceptUcBroadcastReceiver
+    Permission: null
+  com.alipay.mobile.command.trigger.NotifyTrigger
+    Permission: null
+  com.sina.weibo.push.SDKMsgReceiver
+    Permission: null
+  com.sina.push.receiver.ProxyReceiver
+    Permission: null
+  com.sina.push.receiver.PushSDKReceiver
+    Permission: null
+  com.sina.weibo.sdk.internal.SdkRegisterReceiver
+    Permission: null
+  com.sina.weibo.wlan.WifiBusinessReceiver
+    Permission: null
+  com.sina.weibo.push.PushNotificationReceiver
+    Permission: null
+  com.sina.weibo.localpush.LocalPushReceiver
+    Permission: null
+  com.sina.weibo.SwitchStateReceiver
+    Permission: null
+

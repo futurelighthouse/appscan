@@ -1,0 +1,22 @@
+Selecting 39cdcf684dce2880 (samsung SM-N9006 4.4.2)
+
+Package: com.twitter.android
+  com.twitter.library.client.AccountsChangedReceiver
+    Permission: null
+  com.twitter.android.client.WidgetLargeProvider
+    Permission: null
+  com.twitter.android.client.WidgetSmallProvider
+    Permission: null
+  com.twitter.android.platform.InstallReferralReceiver
+    Permission: null
+  com.twitter.android.platform.OemIntentReceiver
+    Permission: null
+  com.twitter.android.client.SmsReceiver
+    Permission: null
+  com.twitter.library.platform.PushReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+  com.twitter.android.client.AppBroadcastReceiver
+    Permission: com.twitter.android.permission.RESTRICTED
+  com.twitter.android.samsung.single.TwitterWidgetProvider
+    Permission: null
+

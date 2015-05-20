@@ -1,0 +1,26 @@
+Selecting 39cdcf684dce2880 (samsung SM-N9006 4.4.2)
+
+Package: com.twitter.android
+  Authority: com.twitter.android.provider.TwitterProvider
+    Read Permission: com.twitter.android.permission.RESTRICTED
+    Write Permission: com.twitter.android.permission.RESTRICTED
+    Content Provider: com.twitter.library.provider.TwitterProvider
+    Multiprocess Allowed: False
+    Grant Uri Permissions: False
+    Path Permissions:
+      Path: /status_groups_view
+        Type: PATTERN_PREFIX
+        Read Permission: com.twitter.android.permission.READ_DATA
+        Write Permission: null
+  Authority: com.twitter.android.provider.SuggestionsProvider
+    Read Permission: com.twitter.android.permission.RESTRICTED
+    Write Permission: com.twitter.android.permission.RESTRICTED
+    Content Provider: com.twitter.android.provider.SuggestionsProvider
+    Multiprocess Allowed: False
+    Grant Uri Permissions: False
+    Path Permissions:
+      Path: /search_suggest_query
+        Type: PATTERN_PREFIX
+        Read Permission: android.permission.GLOBAL_SEARCH
+        Write Permission: null
+

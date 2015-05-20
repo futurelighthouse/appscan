@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html> 
+<head> 
+
+ <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+
+ <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.js"></script>
+ <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css" rel="stylesheet">
+</head> 
+<body>
+<div  class="mainframe" style="margin:80px 15% 0 15%">
+<div class="container-fluid margin-top-2" >
+<div class="container-fluid">
+	<div class="row-fluid" style="padding:5px 5px 0 5px;border:1px solid  #ccc">
+		<div class="span12">
+			<h3>
+				基本信息
+			</h3>
+			<div class="row-fluid">
+				<div class="span8">
+					<dl>
+
+						{% for item in info %} 
+						
+						 	{% for i in item %} 
+						 		{% if forloop.first %}
+						 		<dt>{{i}}</dt>
+						 		{% else %}
+						 		<dd> &nbsp;&nbsp; {{i}}</dd>
+						 		{% endif %} 
+						 	{% endfor %} 
+
+						{% endfor %} 
+
+
+					</dl>
+				</div>
+				<div class="span4">
+					<img alt="140x140" src="http://i1.dpfile.com/pc/f0f1cafb0561e95ef80dac88f0b7434f%28700x700%29/thumb.jpg" class="img-rounded" />
+				</div>
+			</div>
+			<div class="tabbable" id="tabs-724380">
+				<ul class="nav nav-tabs">
+					<li>
+						<a href="#panel-478892" data-toggle="tab">权限列表</a>
+					</li>
+					<li class="active">
+						<a href="#panel-438788" data-toggle="tab">自定义权限</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane" id="panel-478892">
+
+						Uses Permissions:<br>
+
+						{% for item in user_permission %} 
+							<p>--{{item}}</p>
+						{% endfor %} 
+			
+						
+					</div>
+					<div class="tab-pane active" id="panel-438788">
+						<p>
+							Define Permissions:<br>
+						  {% for item in define_permission %} 
+							<p>--{{item}}</p>
+						  {% endfor %} 
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span12">
+			<h3>
+				组件信息
+			</h3>
+			<div class="accordion" id="accordion-512606">
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" data-parent="#accordion-512606" data-toggle="collapse" href="#accordion-element-1">Activity组件暴露</a>
+					</div>
+					<div class="accordion-body collapse" id="accordion-element-1">
+						<div class="accordion-inner">
+							 {% for item in activity_info %} 
+							  <p>--{{item}}</p>
+						     {% endfor %} 
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" data-parent="#accordion-512606" data-toggle="collapse" href="#accordion-element-2">BroadcastReceiver组件暴露</a>
+					</div>
+					<div class="accordion-body collapse" id="accordion-element-2">
+						<div class="accordion-inner">
+							 {% for item in BroadcastReceiver_info %} 
+							  <p>--{{item}}</p>
+						     {% endfor %} 
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" data-parent="#accordion-512606" data-toggle="collapse" href="#accordion-element-3">ContentProvider组件暴露</a>
+					</div>
+					<div class="accordion-body collapse" id="accordion-element-3">
+						<div class="accordion-inner">
+						 {% for item in Provider_info %} 
+							  <p>--{{item}}</p>
+						  {% endfor %} 
+
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" data-parent="#accordion-512606" data-toggle="collapse" href="#accordion-element-4">Service组件暴露</a>
+					</div>
+					<div class="accordion-body collapse" id="accordion-element-4">
+						<div class="accordion-inner">
+								 {% for item in Service_info %} 
+							  <p>--{{item}}</p>
+						     {% endfor %} 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span12">
+			<h3>
+				漏洞描述
+			</h3>
+			<div class="accordion" id="accordion-278161">
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-parent="#accordion-278161" data-toggle="collapse" href="#accordion-element-133559">WebView远程代码执行</a>
+					</div>
+					<div class="accordion-body collapse" id="accordion-element-133559">
+						<div class="accordion-inner">
+							功能块...
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle collapsed" data-parent="#accordion-278161" data-toggle="collapse" href="#accordion-element-891472">拒绝服务</a>
+					</div>
+					<div class="accordion-body collapse" id="accordion-element-891472">
+						<div class="accordion-inner">
+							功能块...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html> 
