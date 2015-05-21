@@ -15,4 +15,13 @@ To run the code, you may need to prepare the following things,
 4. __Androguard__   
 
 To make it easily, you can use [Santoku](https://santoku-linux.com/) and just need install Django   
-###3. To be contined
+
+###3. Run
+
+--1. At first, prepare a mobile or AVD, install drozer agent and keep the agent on.
+
+--2. Run "python manage.py runserver" to start Django service
+
+--3. Upload an Apk by access "http://127.0.0.1:8000/index"
+
+###4. To be contined
